@@ -1,0 +1,30 @@
+html, body { 
+  max-width: 100%; 
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow-y: hidden;
+  background-color: var(--light-green-color);
+}
+
+.about-container {
+  background-color: var(--beige-color);
+  width: 100%;
+  padding: 10px;
+  padding-top: 2rem;
+  gap: 20px;
+  padding-bottom: 15rem;
+}
+
+.about-img {
+  width: 80%;
+  height: 240px;
+  object-fit: cover;
+  margin-bottom: 40px;
+}
+
+.desc {
+  margin: 40px;
+  text-align: center;
+}

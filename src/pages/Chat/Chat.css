@@ -1,0 +1,15 @@
+.chat{
+  background-color: var(--light-green-color);
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-container{
+  border-radius: 10px;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  overflow: hidden;
+}

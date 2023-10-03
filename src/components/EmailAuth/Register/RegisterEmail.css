@@ -1,0 +1,134 @@
+html {
+  background-color: var(--light-green-color);
+}
+
+.email-register {
+  background-color: var(--light-green-color);
+}
+
+.logo {
+  background-color: var(--light-green-color);
+}
+
+.logo-img {
+  padding: 1rem;
+}
+
+.email-register-form-container {
+  background-color: var(--light-green-color);
+  height: 80vh;
+  width: 100%;
+  gap: 60px;
+}
+
+.email-register-form-wrapper {
+  background-color: var(--white-color);
+  padding: 20px 60px;
+  border-radius: 10px;
+  gap: 20px;
+  padding-bottom: 40px;
+}
+
+.email-register-topbar {
+  gap: 0px;
+  width: 100%;
+}
+
+.email-register-back-btn {
+  vertical-align: middle;
+  margin-top: 4px;
+  margin-left: 0px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+
+  &:hover{
+    color: var(--green-color);
+  }
+}
+
+.email-register-title {
+  margin: auto;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.email-register-form {
+  gap: 15px;
+}
+
+.email-input-btn {
+  position: absolute;
+  top: 0;
+  right: 36.5rem;
+  z-index: 2;
+  border: none;
+  top: 13.5rem;
+  height: 30px;
+  cursor: pointer;
+}
+
+.email-register-input {
+  padding: 10px;
+  border: none;
+  width: 250px;
+  border-bottom: 1px solid var(--beige-color);
+  
+  &::placeholder{
+      color: var(--light-gray-color);
+  }
+}
+
+.email-register-password-input {
+  position: relative;
+}
+
+.email-register-password-inputfield {
+  padding: 10px;
+  border: none;
+  width: 250px;
+  border-bottom: 1px solid var(--beige-color);
+  
+  &::placeholder{
+      color: var(--light-gray-color);
+  }
+}
+
+.email-register-input-btn {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  z-index: 2;
+  border: none;
+  top: 10px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: var(--green-color);
+  color: var(--white-color);
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+
+  transition: background-color 0.2s cubic-bezier(var(--light-green-color));
+  vertical-align: middle;
+
+  &:hover {
+    background-color: var(--light-green-color);
+    transition-duration: 0.1s;
+  }
+
+  &:focus {
+    outline: 1px transparent;
+  }
+}
+
+.MuiTypography-root{
+  font-size: 12px !important;
+} 

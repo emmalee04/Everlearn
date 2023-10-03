@@ -1,0 +1,51 @@
+.chat-search {
+  border-bottom: 1px solid var(--light-green-color)
+}
+
+.chat-searchform {
+  padding: 20px;
+}
+
+.chat-user-search {
+  background-color: var(--white-color);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  color: var(--black-color);
+  outline: none;
+  width: 90%;
+
+  &::placeholder{
+      color: var(--light-gray-color);
+  }
+}
+
+.chat-search-userchat {
+  padding: 10px;
+  gap: 10px;
+  color: white;
+  cursor: pointer;
+
+  &:hover{
+      background-color: cadetblue;
+  }
+}
+
+.chat-search-profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat-search-btn {
+  position: absolute;
+  top: 175px;
+  left: 320px;
+  z-index: 1;
+  border: none;
+  height: 30px;
+  cursor: pointer;
+  background-color: var(--white-color);
+  padding: 5px;
+}

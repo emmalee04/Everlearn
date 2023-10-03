@@ -1,0 +1,120 @@
+html, body { 
+  max-width: 100%; 
+  overflow-x: hidden !important;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.welcome-upper-navbar {
+  background-color: var(--white-color);
+  padding: 15px;
+  padding-left: 7%;
+  padding-right: 5%;
+  height: 50px;
+  width: 90%;
+}
+
+.logo-img {
+  max-height: 60px;
+  max-width: 200px;
+  object-fit: cover;
+}
+
+.welcome-sign-in {
+  appearance: none;
+  background-color: var(--white-color);
+  border: 1px solid var(--black-color);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: var(--black-color);
+  cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  vertical-align: middle;
+
+  &:hover {
+    background-color: #F3F4F6;
+    transition-duration: 0.1s;
+  }
+
+  &:focus {
+    outline: 1px transparent;
+  }
+}
+
+.title-container {
+  background-color: var(--beige-color);
+  width: 100%;
+  padding: 10px;
+  padding-top: 10rem;
+  gap: 20px;
+  padding-bottom: 15rem;
+}
+
+.title-desc-2 {
+  color: var(--black-color);
+}
+
+.register-container {
+  padding: 30px;
+  gap: 20px;
+}
+
+.get-started {
+  appearance: none;
+  background-color: #E3DDC6;
+  border: none;
+  border-radius: 10px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: var(--black-color);
+  cursor: pointer;
+  display: flex;
+  line-height: 50px;
+  padding: 10px 24px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  white-space: nowrap;
+
+  &:hover {
+    background-color: #FAF6E6;
+    transition-duration: 0.1s;
+  }
+
+  &:focus {
+    outline: 1px transparent;
+  }
+}
+
+.description {
+  background-color: var(--light-green-color);
+  width: 100%;
+  overflow: -moz-hidden-unscrollable;
+  padding: 60px;
+  gap: 5rem;
+}
+
+.desc-container {
+  background-color: var(--light-green-color);
+  /* border-color: var(--light-green-color); */
+  width: 80%;
+  padding: 40px;
+  gap: 20px;
+}
+
+.sub-desc {
+  color: var(--black-color);
+}
+
+.desc-img {
+  max-height: 300px;
+  max-width: 400px;
+  object-fit: cover;
+  margin: 2rem;
+}

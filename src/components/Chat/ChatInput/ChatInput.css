@@ -1,0 +1,42 @@
+.chat-input{
+  height: 50px;
+  background-color: #F1F5DF;
+  padding: 10px;
+}
+
+.chat-input-bar{
+  width: 90%;
+  border: none;
+  outline: none;
+  color: var(--black-color);
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 10px;
+
+  &::placeholder{
+    color: var(--light-gray-color);
+  }
+}
+
+.send {
+  padding-left: 10px;
+  gap: 10px;
+}
+
+.send-img {
+  height: 30px;
+  width: 40px;
+  cursor: pointer;
+}
+
+.send_btn{
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  color: var(--white-color);
+  background-color: var(--green-color);
+
+  &::hover {
+    background-color: var(--light-green-color);
+  }
+}
