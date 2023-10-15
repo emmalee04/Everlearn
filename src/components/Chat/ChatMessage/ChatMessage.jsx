@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useRef, useState } from 'react'
+import React, { useContext, useEffect, useRef } from 'react'
 import './ChatMessage.css';
 import { AuthContext } from '../../../context/AuthContext';
 import { ChatContext } from '../../../context/ChatContext';
@@ -8,7 +8,6 @@ const ChatMessage = ({message}) => {
 
   const {currentUser} = useContext(AuthContext);
   const {data} = useContext(ChatContext);
-  const [messageOwner, setMessageOwner] = useState(false);
 
   const ref = useRef();
 
@@ -34,7 +33,7 @@ const ChatMessage = ({message}) => {
       </div>
       <div className="message-content">
         <p className='message-text'>{message.text}</p>
-          {message.img && <img src={message.img} alt="" />}
+          {message.file && <img src={message.file} alt="" />}
       </div>
     </div>
   )

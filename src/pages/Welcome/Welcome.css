@@ -102,7 +102,6 @@ body {
 
 .desc-container {
   background-color: var(--light-green-color);
-  /* border-color: var(--light-green-color); */
   width: 80%;
   padding: 40px;
   gap: 20px;

@@ -27,7 +27,7 @@
   cursor: pointer;
 
   &:hover{
-      background-color: cadetblue;
+      background-color: cadetblue; 
   }
 }
 
@@ -41,7 +41,7 @@
 .chat-search-btn {
   position: absolute;
   top: 155px;
-  left: 445px;
+  left: 450px;
   z-index: 1;
   border: none;
   height: 30px;

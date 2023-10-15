@@ -9,7 +9,6 @@ body {
   margin-bottom: 40px;
   gap: 20px;
   padding-bottom: 15rem;
-  background: linear-gradient(rgba(221, 229, 182, 0.4), rgba(221, 229, 182, 0.4)), url("../../images/home_background.jpeg") center/cover no-repeat;
 }
 
 .hor-scroll-bar {

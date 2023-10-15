@@ -14,6 +14,7 @@ const Home = () => {
       >
         <div className='home-title-container flex flex-column flex-c'>
           <span className='title-desc-1 fs-22'>Explore topics to learn.</span>
+          <span className='subtitle-desc-1 fs-14'>Connect with new people.</span>
         </div>
         <div className='hor-scroll-bar'>
           <div className='hor-scroll-elements primary flex flex-c'>
