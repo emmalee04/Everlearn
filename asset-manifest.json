@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/everlearn.git/static/css/main.04bf2fc9.css",
-    "main.js": "/everlearn.git/static/js/main.25d557fa.js",
+    "main.css": "/everlearn.git/static/css/main.10b03d45.css",
+    "main.js": "/everlearn.git/static/js/main.6fee6ec2.js",
     "static/media/about-background.png": "/everlearn.git/static/media/about-background.92d893b581e869b02c72.png",
     "static/media/coffee_4.png": "/everlearn.git/static/media/coffee_4.6e3a3a788196b64d539d.png",
     "static/media/coffee_1.png": "/everlearn.git/static/media/coffee_1.0a725229e6a2e8f2beb7.png",
@@ -11,14 +11,13 @@
     "static/media/streak-badge.png": "/everlearn.git/static/media/streak-badge.dd849e7ce62bfdc8e5ca.png",
     "static/media/coffeebean.png": "/everlearn.git/static/media/coffeebean.646c0a4ee7d53786990b.png",
     "static/media/applogo.png": "/everlearn.git/static/media/applogo.fb945fbf8ac694438502.png",
-    "static/media/home_background.jpeg": "/everlearn.git/static/media/home_background.efcefc80a7065b9b573d.jpeg",
     "static/media/blank-profile-pic.webp": "/everlearn.git/static/media/blank-profile-pic.efadb13dba95b5bc918b.webp",
     "index.html": "/everlearn.git/index.html",
-    "main.04bf2fc9.css.map": "/everlearn.git/static/css/main.04bf2fc9.css.map",
-    "main.25d557fa.js.map": "/everlearn.git/static/js/main.25d557fa.js.map"
+    "main.10b03d45.css.map": "/everlearn.git/static/css/main.10b03d45.css.map",
+    "main.6fee6ec2.js.map": "/everlearn.git/static/js/main.6fee6ec2.js.map"
   },
   "entrypoints": [
-    "static/css/main.04bf2fc9.css",
-    "static/js/main.25d557fa.js"
+    "static/css/main.10b03d45.css",
+    "static/js/main.6fee6ec2.js"
   ]
 }
