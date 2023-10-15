@@ -1,6 +1,7 @@
 .chat{
   background-color: var(--light-green-color);
-  height: 90vh;
+  height: 100%;
+  padding-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;

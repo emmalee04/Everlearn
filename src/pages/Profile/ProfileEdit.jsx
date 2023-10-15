@@ -12,8 +12,8 @@ import { useNavigate } from 'react-router';
 import { getDownloadURL, ref, uploadBytesResumable } from 'firebase/storage';
 
 const ProfileEdit = () => {
-  const { currentUser } = UserAuth();
-  const navigate = useNavigate();
+  const { currentUser } = UserAuth(); 
+  const navigate = useNavigate(); 
 
   const [userInfo, setUserInfo] = useState({
     email: "",
@@ -53,16 +53,9 @@ const ProfileEdit = () => {
   }, [])
 
   // Saves updated user info and uploads it on firebase.
-  const handleSave = async () => {
-    // Update user doc
-    await updateDoc(doc(db, "users", currentUser.uid), {
-      displayName: userInfo.displayName,
-      fullName: userInfo.fullName,
-      bio: userInfo.bio,
-      gender: userInfo.gender,
-      photoURL: userInfo.photoURL
-    })
-
+  const handleSave = async (e) => {
+    e.preventDefault();
+    setUserInfo(userInfo);
     //Create a unique image name
     const storageRef = ref(storage, `${userInfo.displayName}`);
 
@@ -73,6 +66,15 @@ const ProfileEdit = () => {
           displayName: userInfo.displayName,
           photoURL: downloadURL
         });
+
+        // Update user doc
+        await updateDoc(doc(db, "users", currentUser.uid), {
+          displayName: userInfo.displayName,
+          fullName: userInfo.fullName,
+          bio: userInfo.bio,
+          gender: userInfo.gender,
+          photoURL: downloadURL
+        })
       
         console.log("updated");
         setIsUpdated("Saved");

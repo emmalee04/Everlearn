@@ -1,29 +1,30 @@
 .chat-messages{
   background-color: white;
   padding: 10px;
-  height: calc(100% - 175px);
+  height: 450px;
   overflow: scroll;
 }
 
-.message{
+.message {
   display: flex;
   gap: 20px;
-}
+  /* flex-direction: row-reverse; */
 
-.message-owner{
-  display: flex;
-  gap: 20px;
-  flex-direction: row-reverse;
+  &.owner {
+    flex-direction: row-reverse;
 
-  .message-content{
-    align-items: flex-end;
-  }
+    .message-content {
+      align-items: flex-end;
+      p {
+        background-color: #8da4f1;
+        color: white;
+        border-radius: 0px 15px 15px 15px;
+      }
+    }
 
-  .message-text{
-    background-color: cadetblue;
-    color: white;
-    border-radius: 15px 0px 15px 15px;
-    max-width: max-content;
+    .message-text {
+      border-radius: 15px 0px 15px 15px ;
+    }
   }
 }
 
@@ -44,7 +45,7 @@
 }
 
 .message-text{
-  background-color: aliceblue;
+  background-color: #F1F5DF;
   padding: 10px 20px;
   border-radius: 0px 15px 15px 15px ;
 }
@@ -53,6 +54,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  border: 1px solid var(--light-green-color);
   object-fit: cover;
 }
 

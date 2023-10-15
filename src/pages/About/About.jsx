@@ -15,7 +15,7 @@ const About = () => {
         viewport={{ once: true }}
       >
         <div className='about-container flex flex-column flex-c'>
-          <img className='about-img' src={AboutImg} alt="" />
+          {/* <img className='about-img' src={AboutImg} alt="" /> */}
           <span className='fs-16'>About Everlearn</span>
           <p className='desc flex flex-c fs-12'>Everlearn is an interactive learning site where anyone 
           can learn anything they want, while spreading their interests. You can learn anything
