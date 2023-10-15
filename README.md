@@ -3,27 +3,27 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/leemms04/react-app-bookhub">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/leemms04/everlearn">
+    <img src="main/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
 
-<h3 align="center">BookHub</h3>
+<h3 align="center">Everlearn</h3>
 
   <p align="center">
-    A book log website with search features.
+    A website where you become a mentor and mentee.
     <br />
-    <a href="https://github.com/leemms04/react-app-bookhub"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/leemms04/everlearn"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/leemms04/react-app-bookhub/issues">Report Bug</a>
+    <a href="https://github.com/leemms04/everlearn/issues">Report Bug</a>
   </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-BookHub is a personal project based on a client-server architecture. The frontend is made using React and backend is made using NodeJS. The app uses the Open Library API to fetch book data and implement search features. Users can search up books, record dates, ratings, and reviews, and add booklogs to a book list.
+Everlearn is a personal project made for Dubhacks 2023. The app is based on ReactJS, Node, HTML, and CSS. THe app has built-in sign-in functionalities with social media sign-in, built-in chat functions, and a profile and settings page.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -33,6 +33,7 @@ BookHub is a personal project based on a client-server architecture. The fronten
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
+* [![Firebase][Firebase.js]][Firebase-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,12 +122,12 @@ Users can add and edit their book logs in detail, including the start and end da
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* [Open Library API](https://openlibrary.org/developers/api)
 * [GitHub Pages](https://pages.github.com)
-* [React-Dates](https://www.npmjs.com/package/react-dates)
-* [React-Stars](https://www.npmjs.com/package/react-stars)
-* [React-Datepicker](https://www.npmjs.com/package/react-datepicker)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Google Firebase](https://firebase.google.com/)
+* [MUI Icons](https://mui.com/material-ui/material-icons/)
+* [React-icons](https://react-icons.github.io/react-icons/)
+* [Animate.css](https://animate.style/)
+* [Framer Motion](https://www.framer.com/motion/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
