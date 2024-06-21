@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/leemms04/everlearn">
+  <a href="https://github.com/emmalee04/everlearn">
     <img src="main/images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -13,10 +13,10 @@
   <p align="center">
     A website where you become a mentor and mentee.
     <br />
-    <a href="https://github.com/leemms04/everlearn"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/emmalee04/everlearn"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/leemms04/everlearn/issues">Report Bug</a>
+    <a href="https://github.com/emmalee04/everlearn/issues">Report Bug</a>
   </p>
 </div>
 
